@@ -1,0 +1,19 @@
+create database ranjeet;
+
+
+use ranjeet;
+
+
+create table job(job_id varchar(15), job_title varchar(25), job_city varchar(15), job_description varchar(50), salary integer(10), responsibilities varchar(50), working_hrs varchar(10));
+
+
+create table employer(emp_id varchar(15), emp_name varchar(25), email_id varchar(25), comp_cont integer(12), website varchar(25));
+
+
+create table jobseeker(jobseeker_id varchar(15), full_name varchar(25), email_id varchar(25), phone_no. integer(!2), address varchar(50), skills varchar(50), education varchar(50),  experience varchar(15),  resume varchar(25));
+
+
+create table feedback(feedback_id varchar(15), feedback_details varchar(50));
+
+
+create table login(username varchar(20), password varchar(20);
